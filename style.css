@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.con{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff ,#95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.con h1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.con h1 img{
+    width: 60px;
+}
+
+.con button img{
+    width: 25px;
+    margin-right: 8px;
+}
+
+.con button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
